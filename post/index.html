@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>404 Page not found - 窝</title>
-    <meta property="og:title" content="404 Page not found - 窝">
+    <title>日志 - 窝</title>
+    <meta property="og:title" content="日志 - 窝">
     
     <meta name="twitter:card" content="summary">
 
@@ -23,6 +23,8 @@
     
 
     
+    <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="窝" />
+    
     
 
     <link rel="stylesheet" href="/css/style.css" />
@@ -33,7 +35,7 @@
   </head>
 
   
-  <body class="/404.html">
+  <body class="post">
     <header class="masthead">
       
 
@@ -49,7 +51,7 @@
   
   <li><a href="/about/">我</a></li>
   
-  <li><a href="/post/">每天</a></li>
+  <li class="active"><a href="/post/">每天</a></li>
   
   </ul>
 </nav>
@@ -59,7 +61,7 @@
     <article class="main">
       <header class="title">
       
-<h1>404 Page not found</h1>
+<h1>日志</h1>
 
 
 <hr>
@@ -68,16 +70,57 @@
       </header>
 
 
-<p>The page at <code>
-<script>
-document.write(location.href);
-</script>
-</code> was not found. Feel confused? Please go ahead and leave a message below to notify me. It will be great if you could tell me the URL of the page and where/how you got this URL. Thanks!</p>
 
-<p><img src="https://slides.yihui.org/gif/elevator.gif" alt="404 not found" /></p>
+
+<div class="archive">
+
+  
+  <h2 class="archive-title">2021</h2>
+  
+  
+  <p>
+    <span>2021-10-19</span>
+    <a href="/post/2021-10-20/">2021 10 20</a>
+  </p>
+  
+  <p>
+    <span>2021-10-19</span>
+    <a href="/post/2021-10-19/">标题</a>
+  </p>
+  
+  
+  
+  <p>
+    <span>2021-10-18</span>
+    <a href="/post/2021-10-18/">标题</a>
+  </p>
+  
+  
+  
+
+
+</div>
+
 
   <footer>
   
+<nav class="post-nav">
+  <span class="nav-prev"></span>
+  <span class="nav-next"></span>
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+  } else if (e.which == 39) {  
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
 
 
 <script async src="/js/fix-toc.js"></script>

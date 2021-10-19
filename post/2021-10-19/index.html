@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>404 Page not found - 窝</title>
-    <meta property="og:title" content="404 Page not found - 窝">
+    <title>标题 - 窝</title>
+    <meta property="og:title" content="标题 - 窝">
     
     <meta name="twitter:card" content="summary">
 
@@ -14,6 +14,13 @@
     
 
     
+      
+      <meta property="description" content="内容
+[&amp;hellip;] 内容
+">
+      <meta property="og:description" content="内容
+[&amp;hellip;] 内容
+">
       
     
 
@@ -33,7 +40,7 @@
   </head>
 
   
-  <body class="/404.html">
+  <body class="post">
     <header class="masthead">
       
 
@@ -59,8 +66,11 @@
     <article class="main">
       <header class="title">
       
-<h1>404 Page not found</h1>
+<h1>标题</h1>
 
+
+<h3>
+2021-10-19</h3>
 
 <hr>
 
@@ -68,16 +78,39 @@
       </header>
 
 
-<p>The page at <code>
-<script>
-document.write(location.href);
-</script>
-</code> was not found. Feel confused? Please go ahead and leave a message below to notify me. It will be great if you could tell me the URL of the page and where/how you got this URL. Thanks!</p>
 
-<p><img src="https://slides.yihui.org/gif/elevator.gif" alt="404 not found" /></p>
+
+
+<h3 id="标题">标题</h3>
+<p>内容</p>
+<h3 id="标题-1">标题</h3>
+<p>内容</p>
+
+
 
   <footer>
   
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/post/2021-10-18/">标题</a></span>
+  <span class="nav-next"><a href="/post/2021-10-20/">2021 10 20</a> &rarr;</span>
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/post\/2021-10-18\/';
+    
+  } else if (e.which == 39) {  
+    
+    url = '\/post\/2021-10-20\/';
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
 
 
 <script async src="/js/fix-toc.js"></script>

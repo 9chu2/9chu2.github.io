@@ -121,7 +121,7 @@ hr {
   border-top: 1px solid;
   margin: 50px auto;
   padding: 0;
-  max-width: 360px;
+  max-width: 300px;
 }
 
 .copyright {
@@ -152,36 +152,30 @@ hr {
 body {
   width: 960px;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 30px 0;
 }
 
 .masthead {
-  width: auto;
-  float: none;
-  padding: 10px 0 10px;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-bottom: 3px solid black;
+  width: 260px;
+  padding: 20px 50px 20px 10px;
+  float: left;
 }
 
 .main {
-  width: auto;
-  padding: 45px 40px;
-  margin-left: 0;
-  border-left: none;
-  min-height: auto;
-
-  /* min-height: calc(100vh - 60px); */
+  width: 700px;
+  padding: 32px 10px 20px 50px;
+  margin-left: 260px;
+  border-left: 3px solid black;
+  min-height: calc(100vh - 60px);
 }
 
 /* Masthead */
 
 .masthead h1 {
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 34px;
   padding: 0;
-  /* text-align: right; */
+  text-align: right;
   font-size: 46px;
   line-height: 58px;
 }
@@ -196,22 +190,8 @@ body {
 }
 
 .masthead .menu {
-/* 　display: flex;
-　justify-content: center;
-　align-items: center; */
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
-  max-width: 400px;
-  text-align: center;
-  align-content: center;
-  background: #ffd8cc;
-
-}
-.masthead .menu ul{
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px;
+  margin-right: 20px;
+  direction: rtl;
 }
 
 .masthead .menu a {
@@ -219,9 +199,9 @@ body {
 }
 
 .masthead .menu ul ul {
+  list-style: none;
   margin-left: 10px;
   margin-right: 10px;
-
 }
 
 .masthead .menu li li::before {
@@ -279,12 +259,6 @@ thead, tfoot, tr:nth-child(even) {
   background: #f8f8f8;
 }
 
-.archive {
-  padding: 20px;
-  background: #ffd8cc;
-  border-radius: 5px;
-}
-
 /**
  * Utility Styles
  */
@@ -327,7 +301,128 @@ thead, tfoot, tr:nth-child(even) {
     max-width: 700px;
   }
 
-  
+  .masthead {
+    width: auto;
+    float: none;
+    padding: 20px 0 60px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 3px solid black;
+  }
+
+  .main {
+    width: auto;
+    padding: 40px 10px;
+    margin-left: 0;
+    border-left: none;
+    min-height: auto;
+  }
+
+  .masthead h1 {
+    text-align: center;
+  }
+
+  .masthead .tagline {
+    text-align: center;
+  }
+
+  .masthead .menu {
+    direction: ltr;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .masthead .menu ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .masthead .menu ul ul {
+    margin: 0;
+  }
+
+  .masthead .menu li {
+    border-bottom: 1px solid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .masthead .menu li:first-child {
+    border-top: 1px solid;
+  }
+
+  .masthead .menu li li:last-child {
+    border-bottom: none;
+  }
+
+  .masthead .menu a {
+    display: block;
+    padding: 15px 20px;
+    border-bottom: none;
+  }
+
+  .masthead .menu li li a {
+    padding-left: 30px;
+  }
+
+  .masthead .menu li li::before {
+    content: none;
+  }
+
+  .masthead .menu li li a::before {
+    content: "•\00a0\00a0\00a0";
+  }
+
+  #menu-label {
+    display: inline-block;
+    padding: 0 20px;
+    height: 50px;
+    border: 1px solid;
+    cursor: pointer;
+    line-height: 50px;
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #menu-label:hover, #menu-label:focus {
+    border: 1px solid #888;
+  }
+
+  #menu-label .icon {
+    padding-right: 8px;
+    width: 30px;
+  }
+
+  #menu-check ~ label .close-icon {
+    display: none;
+  }
+
+  #menu-check ~ label .open-icon {
+    display: inline-block;
+  }
+
+  #menu-check:checked ~ label .close-icon {
+    display: inline-block;
+  }
+
+  #menu-check:checked ~ label .open-icon {
+    display: none;
+  }
+
+  #menu-check ~ ul {
+    display: none;
+  }
+
+  #menu-check:checked ~ ul {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
 }
 
 /* Landscape phone screens and smaller */
@@ -359,66 +454,8 @@ thead, tfoot, tr:nth-child(even) {
     font-size: 12px;
   }
 
-}
-body {
-  background: #ffeedb;
-  /* background: url("/images/bg2.png"); */
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.content {
-  padding: 20px;
-  /* background: #d6e6f2; */
-  background-repeat: no-repeat;
-  background-position: center;
-  background: #ffd8cc;
-  border-radius: 5px;
-}
-/* .home-ul {
-  padding: 0px;
-}
-.home-li {
-  padding: 20px;
-  border-radius: 25px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.home-li a{
-  font-size: 19px;
+  .masthead {
+    padding-top: 0;
+  }
 
-}
-.home-li .date{
-  font-size: 16px;
-} */
-.masthead .menu a {
-  display: inline-block;
-  padding: 5px 10px;
-  background: #444;
-  color: #fff5eb;
-  border-radius: 5px;
-}
-.masthead .menu .active a {
-  background: #fff5eb;
-  border: 1px solid #444;
-  color: #000;
-}
-.masthead .menu li, .masthead .menu li:first-child {
-  border: none;
-  display: inline-block;
-  margin-top: 5px;
-}
-
-.panel { order: inherit; }
-.label { width: 100%; }
-.masthead img {
-  max-width: 80px;
-}
-.home blockquote {
-  border-left-color: transparent;
-}
-footer {
-  text-align: center;
-}
-.music {
-  background-color: #ffeedb;
 }
