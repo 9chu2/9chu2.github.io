@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on 窝</title>
+    <title>窝</title>
     <link>/</link>
-    <description>Recent content in Home on 窝</description>
+    <description>Recent content on 窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 19 Oct 2021 23:35:31 +0800</lastBuildDate>
@@ -10,7 +10,7 @@
     
     
     <item>
-      <title>日志</title>
+      <title>Posts</title>
       <link>/post/</link>
       <pubDate>Tue, 19 Oct 2021 23:35:31 +0800</pubDate>
       
@@ -18,6 +18,32 @@
       <description>
         <![CDATA[
         
+        
+        ]]>
+      </description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Home</title>
+      <link>/%E4%BD%A0%E5%A5%BD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/%E4%BD%A0%E5%A5%BD/</guid>
+      <description>
+        <![CDATA[
+        <p>嗨，你好。这里一个个人的博客网站。有些东西你可以随便看看。</p>
+<p>对于除我以外的人：</p>
+<p>我要保全你的自由</p>
+<p>你有你重要的事情</p>
+<p>就是你现在建立起来的你人生中的一切我不可以对它有任何毁坏</p>
+<p>但我是一个没有重要的事的人</p>
+<p>所以目前看来我周边所有的一切都是馈赠形式的</p>
+<p>因为我没有把我和我周边的一切联系起来，产生那种必要性。</p>
+<p>所以我对我周边的一切来说是可有可无的所以任何存在在我面前大可以大胆真实的存在</p>
+<p>对我不必产生任何畏缩、要相信在你完全接受你(自己)之前，我是更加完全接受你的但是如果你要毁坏这样个我的话，我们就无法存在</p>
+
         
         ]]>
       </description>
@@ -34,7 +60,9 @@
       <description>
         <![CDATA[
         <h1 id="我是谁1">我是谁1</h1>
+<p>今天是2021.10.20，我是个生长了21年的人。女，162cm 体重66斤到94斤 贫乳 发质细软。大脚趾很长。</p>
 <h1 id="我是谁2">我是谁2</h1>
+<p>极度害羞，实质冷漠。略无口。易振奋、易妥协。无原则</p>
 
         
         ]]>
